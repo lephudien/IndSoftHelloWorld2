@@ -21,7 +21,7 @@ namespace AdapterDB2.Oracle2
 
       Version version = Assembly.GetAssembly(typeof(Oracle.ManagedDataAccess.Client.OracleConnection)).GetName().Version;
 
-      return $"AdapterDB.Oracle Ver={fvi.FileVersion}{Environment.NewLine}Using EXTERNAL Oracle Ver{version.ToString()}";
+      return $"AdapterDB2.Oracle Ver={fvi.FileVersion}{Environment.NewLine}Using EXTERNAL Oracle Ver {version.ToString()}";
     }
   }
 }

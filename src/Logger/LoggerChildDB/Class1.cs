@@ -13,7 +13,7 @@ namespace LoggerChildDB
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
 
-      return $"LoggerChildDB Ver={fvi.FileVersion}{Environment.NewLine}Using {AdapterDB2.MSSQL.ReadFromDB.GetMyVersion()}{Environment.NewLine}Using {AdapterDB2.Oracle2.ReadFromDB.GetMyVersion()}";
+      return $"LoggerChildDB2 Ver={fvi.FileVersion}{Environment.NewLine}Using {AdapterDB2.MSSQL.ReadFromDB.GetMyVersion()}{Environment.NewLine}Using {AdapterDB2.Oracle2.ReadFromDB.GetMyVersion()}";
     }
   }
 }

@@ -13,7 +13,7 @@ namespace LoggerBase
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
 
-      return "LoggerBase Ver=" + fvi.FileVersion;
+      return "LoggerBase2 Ver=" + fvi.FileVersion;
     }
   }
 }

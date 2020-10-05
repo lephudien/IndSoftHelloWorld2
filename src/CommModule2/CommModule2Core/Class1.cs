@@ -21,7 +21,7 @@ namespace CommModule2Core
 
       Version version = Assembly.GetAssembly(typeof(SimpleTCP.Server.TcpListenerEx)).GetName().Version;
 
-      return $"AdapterDB.Oracle Ver={fvi.FileVersion}{Environment.NewLine}Using EXTERNAL SimpleTCP Ver{version.ToString()}";
+      return $"CommModule2Core Ver={fvi.FileVersion}{Environment.NewLine}Using EXTERNAL SimpleTCP Ver {version.ToString()}";
     }
   }
 }

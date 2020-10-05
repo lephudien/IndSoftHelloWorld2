@@ -13,7 +13,7 @@ namespace AdapterFile2.Text
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
 
-      return "AdapterFile.Text Ver=" + fvi.FileVersion;
+      return "AdapterFile2.Text Ver=" + fvi.FileVersion;
     }
   }
 }

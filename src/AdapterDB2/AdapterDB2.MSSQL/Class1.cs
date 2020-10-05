@@ -16,7 +16,7 @@ namespace AdapterDB2.MSSQL
 
       Version version = Assembly.GetAssembly(typeof(System.Data.SqlClient.SqlAuthenticationMethod)).GetName().Version;
 
-      return $"AdapterDB.MSSQL Ver={fvi.FileVersion}{Environment.NewLine}Using EXTERNAL MSSQLClientVer{version.ToString()}";
+      return $"AdapterDB2.MSSQL Ver={fvi.FileVersion}{Environment.NewLine}Using EXTERNAL MSSQLClientVer {version.ToString()}";
     }
   }
 }

@@ -19,7 +19,7 @@ namespace AdapterFile2.Binary
       //return $"AdapterDB.OracleVer={fvi.FileVersion}{Environment.NewLine}Using EXTERNAL OracleVer{version.ToString()}";
 
       
-      return $"AdapterFile.Binary Ver={fvi.FileVersion}{Environment.NewLine}Using EXTERNAL Google.Apis Ver{version.ToString()}";
+      return $"AdapterFile2.Binary Ver={fvi.FileVersion}{Environment.NewLine}Using EXTERNAL Google.Apis Ver{version.ToString()}";
     }
   }
 }

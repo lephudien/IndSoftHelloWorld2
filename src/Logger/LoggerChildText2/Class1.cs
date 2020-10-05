@@ -13,7 +13,7 @@ namespace LoggerChildText2
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
 
-      return $"LoggerChildText Ver={fvi.FileVersion}{Environment.NewLine}Using {AdapterFile2.Text.TextRW.GetMyVersion()}";
+      return $"LoggerChildText2 Ver={fvi.FileVersion}{Environment.NewLine}Using {AdapterFile2.Text.TextRW.GetMyVersion()}";
     }
   }
 }

@@ -14,7 +14,7 @@ namespace LoggerChildBinary
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
 
-      return $"LoggerChildBinary Ver={fvi.FileVersion}{Environment.NewLine}Using {AdapterFile2.Binary.BinaryRW.GetMyVersion()}";
+      return $"LoggerChildBinary2 Ver={fvi.FileVersion}{Environment.NewLine}Using {AdapterFile2.Binary.BinaryRW.GetMyVersion()}";
     }
   }
 }

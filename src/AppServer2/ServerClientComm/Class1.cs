@@ -13,7 +13,7 @@ namespace ServerClientComm
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
 
-      return "ServerClientComm Ver=" + fvi.FileVersion;
+      return "ServerClientComm2 Ver=" + fvi.FileVersion;
     }
   }
 }
