@@ -15,8 +15,11 @@ namespace AdapterDB2.MSSQL
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
 
       Version version = Assembly.GetAssembly(typeof(System.Data.SqlClient.SqlAuthenticationMethod)).GetName().Version;
+      Version version2 = Assembly.GetAssembly(typeof(log4net.Config.BasicConfigurator)).GetName().Version;
 
-      return $"AdapterDB2.MSSQL Ver={fvi.FileVersion}{Environment.NewLine}Using EXTERNAL MSSQLClientVer {version.ToString()}";
+      return $"AdapterDB2.MSSQL Ver={fvi.FileVersion}" +
+            $"{Environment.NewLine}Using EXTERNAL MSSQLClientVer {version.ToString()}" + 
+            $"{Environment.NewLine}Using EXTERNAL Log4Net {version2.ToString()}";
     }
   }
 }
