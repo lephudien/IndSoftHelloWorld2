@@ -29,5 +29,15 @@ namespace AdapterDB2.MSSQL.UniTests
 
       Assert.False(oResult);
     }
+
+    [Test]
+    public void IsValidConnectString_ReturnTrue_SchvalneChyba()
+    {
+      string sMyConnectString = "MSxxxSQL;Server=lanceddb04;Database=evcs_cpovyvoj;User Id=Lancelot_EVCS;Password=Deneb2;";
+      ReadFromDB test = new ReadFromDB();
+      bool oResult = test.Connect(sMyConnectString);
+
+      Assert.True(oResult);
+    }
   }
 }
