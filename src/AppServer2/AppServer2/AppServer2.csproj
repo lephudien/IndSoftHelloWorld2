@@ -84,7 +84,7 @@
       <Version>22.4.6.2301</Version>
     </PackageReference>
     <PackageReference Include="LoggerChildBinary2">
-      <Version>22.4.6.2502</Version>
+      <Version>22.4.6.2504</Version>
     </PackageReference>
     <PackageReference Include="LoggerChildDB2">
       <Version>22.4.6.2502</Version>

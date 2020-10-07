@@ -21,5 +21,13 @@ namespace AdapterDB2.MSSQL
             $"{Environment.NewLine}Using EXTERNAL MSSQLClientVer {version.ToString()}" + 
             $"{Environment.NewLine}Using EXTERNAL Log4Net {version2.ToString()}";
     }
+
+    public bool Connect(string sConnectString)
+    {
+      if (sConnectString.Contains("MSSQL"))
+        return true;
+
+      return false;
+    }
   }
 }

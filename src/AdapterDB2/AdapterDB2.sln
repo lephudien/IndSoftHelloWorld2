@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "Windows
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDB2.Oracle", "AdapterDB2.Oracle\AdapterDB2.Oracle.csproj", "{F27BE2E6-A1D0-4C54-A1BA-026BDE0E39D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDB2.MSSQL.UniTests", "AdapterDB2.MSSQL.UniTests\AdapterDB2.MSSQL.UniTests.csproj", "{BC2B215F-9A44-4E63-ABDE-D1F9186BEF60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F27BE2E6-A1D0-4C54-A1BA-026BDE0E39D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F27BE2E6-A1D0-4C54-A1BA-026BDE0E39D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F27BE2E6-A1D0-4C54-A1BA-026BDE0E39D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC2B215F-9A44-4E63-ABDE-D1F9186BEF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2B215F-9A44-4E63-ABDE-D1F9186BEF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2B215F-9A44-4E63-ABDE-D1F9186BEF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2B215F-9A44-4E63-ABDE-D1F9186BEF60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

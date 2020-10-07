@@ -23,5 +23,13 @@ namespace AdapterDB2.Oracle2
 
       return $"AdapterDB2.Oracle Ver={fvi.FileVersion}{Environment.NewLine}Using EXTERNAL Oracle Ver {version.ToString()}";
     }
+
+    public bool Connect(string sConnectString)
+    {
+      if (sConnectString.Contains("Oracle"))
+        return true;
+
+      return false;
+    }
   }
 }
