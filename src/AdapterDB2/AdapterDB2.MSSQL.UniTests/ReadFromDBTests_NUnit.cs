@@ -34,8 +34,8 @@ namespace AdapterDB2.MSSQL.UniTests
     [Ignore("there is a problem with this test")]
     public void IsValidConnectString_ReturnTrue_SchvalneChyba()
     {
-      string sMyConnectString = "MSxxxSQL;Server=lanceddb04;Database=evcs_cpovyvoj;User Id=Lancelot_EVCS;Password=Deneb2;";
-      //string sMyConnectString = "MSSQL;Server=lanceddb04;Database=evcs_cpovyvoj;User Id=Lancelot_EVCS;Password=Deneb2;";
+      //string sMyConnectString = "MSxxxSQL;Server=lanceddb04;Database=evcs_cpovyvoj;User Id=Lancelot_EVCS;Password=Deneb2;";
+      string sMyConnectString = "MSSQL;Server=lanceddb04;Database=evcs_cpovyvoj;User Id=Lancelot_EVCS;Password=Deneb2;";
       ReadFromDB test = new ReadFromDB();
       bool oResult = test.Connect(sMyConnectString);
 
