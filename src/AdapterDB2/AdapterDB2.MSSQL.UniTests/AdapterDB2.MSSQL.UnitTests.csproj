@@ -7,8 +7,8 @@
     <ProjectGuid>{BC2B215F-9A44-4E63-ABDE-D1F9186BEF60}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AdapterDB2.MSSQL.UniTests</RootNamespace>
-    <AssemblyName>AdapterDB2.MSSQL.UniTests</AssemblyName>
+    <RootNamespace>AdapterDB2.MSSQL.UnitTests</RootNamespace>
+    <AssemblyName>AdapterDB2.MSSQL.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
